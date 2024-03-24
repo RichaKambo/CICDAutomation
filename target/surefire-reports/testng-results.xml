@@ -1,67 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-09T23:50:07 EST" name="Suite" finished-at="2024-03-09T23:50:43 EST" duration-ms="35778">
+  <suite started-at="2024-03-21T21:58:06 EDT" name="Suite" finished-at="2024-03-21T21:58:48 EDT" duration-ms="41253">
     <groups>
     </groups>
-    <test started-at="2024-03-09T23:50:07 EST" name="Test" finished-at="2024-03-09T23:50:43 EST" duration-ms="35778">
+    <test started-at="2024-03-21T21:58:06 EDT" name="Test" finished-at="2024-03-21T21:58:48 EDT" duration-ms="41253">
       <class name="RahulSeleniumFramework.ErrorValidations">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulSeleniumFramework.ErrorValidations@5677323c]" started-at="2024-03-09T23:50:37 EST" name="launchApplication" finished-at="2024-03-09T23:50:42 EST" duration-ms="4416" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulSeleniumFramework.ErrorValidations@5677323c]" started-at="2024-03-21T21:58:42 EDT" name="launchApplication" finished-at="2024-03-21T21:58:47 EDT" duration-ms="5228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:RahulSeleniumFramework.ErrorValidations@5677323c]" started-at="2024-03-09T23:50:42 EST" name="loginErrorValidation" finished-at="2024-03-09T23:50:42 EST" duration-ms="604" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [] but found [Incorrect email or password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [] but found [Incorrect email or password.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at RahulSeleniumFramework.ErrorValidations.loginErrorValidation(ErrorValidations.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:RahulSeleniumFramework.ErrorValidations@5677323c]" started-at="2024-03-21T21:58:47 EDT" name="loginErrorValidation" finished-at="2024-03-21T21:58:47 EDT" duration-ms="538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:RahulSeleniumFramework.ErrorValidations@5677323c]" started-at="2024-03-09T23:50:43 EST" name="closeApplication" finished-at="2024-03-09T23:50:43 EST" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:RahulSeleniumFramework.ErrorValidations@5677323c]" started-at="2024-03-21T21:58:47 EDT" name="closeApplication" finished-at="2024-03-21T21:58:48 EDT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- RahulSeleniumFramework.ErrorValidations -->
       <class name="RahulSeleniumFramework.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-09T23:50:07 EST" name="launchApplication" finished-at="2024-03-09T23:50:13 EST" duration-ms="6217" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-21T21:58:06 EDT" name="launchApplication" finished-at="2024-03-21T21:58:18 EDT" duration-ms="11669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="SubmitOrder(java.lang.String,java.lang.String)[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-09T23:50:13 EST" name="SubmitOrder" data-provider="getData" finished-at="2024-03-09T23:50:23 EST" duration-ms="10051" status="PASS">
+        <test-method signature="SubmitOrder(java.lang.String,java.lang.String)[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-21T21:58:18 EDT" name="SubmitOrder" data-provider="getData" finished-at="2024-03-21T21:58:27 EDT" duration-ms="9174" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,15 +41,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-09T23:50:23 EST" name="closeApplication" finished-at="2024-03-09T23:50:24 EST" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-21T21:58:27 EDT" name="closeApplication" finished-at="2024-03-21T21:58:27 EDT" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-09T23:50:24 EST" name="launchApplication" finished-at="2024-03-09T23:50:28 EST" duration-ms="4243" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-21T21:58:27 EDT" name="launchApplication" finished-at="2024-03-21T21:58:32 EDT" duration-ms="4574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="SubmitOrder(java.lang.String,java.lang.String)[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-09T23:50:28 EST" name="SubmitOrder" data-provider="getData" finished-at="2024-03-09T23:50:37 EST" duration-ms="9257" status="PASS">
+        <test-method signature="SubmitOrder(java.lang.String,java.lang.String)[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-21T21:58:32 EDT" name="SubmitOrder" data-provider="getData" finished-at="2024-03-21T21:58:42 EDT" duration-ms="9605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +65,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-09T23:50:37 EST" name="closeApplication" finished-at="2024-03-09T23:50:37 EST" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:RahulSeleniumFramework.SubmitOrderTest@29215f06]" started-at="2024-03-21T21:58:42 EDT" name="closeApplication" finished-at="2024-03-21T21:58:42 EDT" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->

@@ -56,6 +56,7 @@ public class StandAloneTest {
 			*/
 			
 	//	}
+	// adding some random comments to demonstrate changes in code and push in GIT repo
 	//waiting until the toast container (displaying "product added to cart")is visible on the page before going to cart page to avoid sync issues
 	    WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("toast-container")));
